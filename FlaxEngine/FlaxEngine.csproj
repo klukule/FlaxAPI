@@ -430,12 +430,33 @@
     <Compile Include="Utilities\StateMachine.cs" />
     <Compile Include="Utilities\StringUtils.cs" />
     <Compile Include="Utilities\Utils.cs" />
+    <Compile Include="VR\VRButtons.cs" />
+    <Compile Include="VR\VRButtonState.cs" />
+    <Compile Include="VR\VRControllerRole.cs" />
+    <Compile Include="VR\VRControllerState.cs" />
+    <Compile Include="VR\VREye.cs" />
+    <Compile Include="VR\VREyeTexture.cs" />
+    <Compile Include="VR\VREyeType.cs" />
+    <Compile Include="VR\VRGamepadDPad.cs" />
+    <Compile Include="VR\VRMode.cs" />
+    <Compile Include="VR\VRPose.cs" />
+    <Compile Include="VR\VRSystem.cs" />
+    <Compile Include="VR\VRSystem.Rendering.cs" />
+    <Compile Include="VR\VRSystem.Tracking.cs" />
+    <Compile Include="VR\VRTrackingReference.cs" />
+    <Compile Include="VR\VRUtils.cs" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".editorconfig" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OpenVR\OpenVR.csproj">
+      <Project>{7c452452-6e1f-4988-a657-2abbf3ca332e}</Project>
+      <Name>OpenVR</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="AfterBuild">

@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlaxEngine.Tests", "FlaxEng
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlaxEditor.Tests", "FlaxEditor.Tests\FlaxEditor.Tests.csproj", "{D020E37B-853F-4ECB-9FDB-E60CD58E0CD9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenVR", "OpenVR\OpenVR.csproj", "{7C452452-6E1F-4988-A657-2ABBF3CA332E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,8 +35,15 @@ Global
 		{D020E37B-853F-4ECB-9FDB-E60CD58E0CD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D020E37B-853F-4ECB-9FDB-E60CD58E0CD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D020E37B-853F-4ECB-9FDB-E60CD58E0CD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C452452-6E1F-4988-A657-2ABBF3CA332E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C452452-6E1F-4988-A657-2ABBF3CA332E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C452452-6E1F-4988-A657-2ABBF3CA332E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C452452-6E1F-4988-A657-2ABBF3CA332E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8CACF2EC-476A-4C23-A365-1FA067D478AF}
 	EndGlobalSection
 EndGlobal
